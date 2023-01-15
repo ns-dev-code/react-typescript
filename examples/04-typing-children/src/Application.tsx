@@ -10,7 +10,7 @@
  */
 
 type BoxProps = {
-  children: React.ReactNode | React.ReactChild | React.ReactChild[];
+  children: React.ReactNode;
 };
 
 const Box = ({ children }: BoxProps) => {

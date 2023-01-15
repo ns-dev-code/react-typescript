@@ -1,5 +1,39 @@
+// {
+//   "editor.fontFamily": "'Operator Mono Lig'",
+// "editor.fontLigatures": true,
+//   "editor.letterSpacing": 0,
+//   "editor.fontSize": 13,
+//   "workbench.colorTheme": "Shades of Purple",
+// }
+
 {
-  "editor.letterSpacing": 0.1,
-  "editor.fontSize": 14,
-  "workbench.colorTheme": "Tomorrow Night Blue",
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": true, // Native bracket matching - colors included in theme
+  "color-highlight.markerType": "underline", // requires Color Highlight Extension
+  "color-highlight.markRuler": false, // requires Color Highlight Extension
+  "editor.colorDecorators": false, // using Color Hightlight instead
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+  "editor.letterSpacing": 0.5,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Operator Mono Lig, Menlo, monospace",
+  "editor.fontSize": 13,
+  "editor.fontWeight": "300",
+  "editor.matchBrackets": "never", // using Subtle Match Brackets instead
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "subtleBrackets.style": { // requires Subtle Match Bracket Extension
+    "global": {
+      "borderColor": "#fac863",
+      "borderWidth": "2px"
+    }
+  },
+ // "terminal.integrated.fontFamily": "Inconsolata for Powerline",
+  "terminal.integrated.fontSize": 12,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "workbench.colorTheme": "Andromeda Bordered",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "newUntitledFile",
 }
